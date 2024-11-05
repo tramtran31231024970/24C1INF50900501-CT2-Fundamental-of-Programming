@@ -1,15 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
 using System;
-namespace Section03
+namespace Exercises2
 {
-    class Baitap
+    class Program
     {
         public static void Main(string[] args)
         {
             //Baitap01();
-            //baitap02();
-            //baitap_02();
-            baitap03();
+            //Baitap02();
+            //Baitap_02();
+            //Baitap03();
         }
         static void Baitap01()
         {
@@ -20,7 +19,7 @@ namespace Section03
             Console.WriteLine($"Convert Celsius to Fahrenheit: {Celsius} do C={Fahrenheit} do F");
             Console.WriteLine($"Convert Celsius to Kelvin: {Celsius} do C={Kelvin} do K");
         }
-        static void baitap02()
+        static void Baitap02()
         {
             Console.WriteLine("Nhap ban kinh r=");
             double r = Convert.ToDouble(Console.ReadLine());
@@ -29,10 +28,8 @@ namespace Section03
             double V = 4 / 3 * pi * r * r * r;
             Console.WriteLine($"S: {S}");
             Console.WriteLine($"V: {V}");
-
-
         }
-        static void baitap_02()
+        static void Baitap_02()
         {
             Console.WriteLine("r=");
             float radius = Convert.ToSingle(Console.ReadLine());
@@ -42,7 +39,7 @@ namespace Section03
             Console.WriteLine($"S: {surface}");
             Console.WriteLine($"V: {volume}");
         }
-        static void baitap03()
+        static void Baitap03()
         {
             Console.WriteLine("Nhap so");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -58,6 +55,5 @@ namespace Section03
             Console.WriteLine($"{chia}");
             Console.WriteLine($"{laydu}");
         }
-
     }
 }
