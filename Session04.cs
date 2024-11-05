@@ -4,10 +4,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Security.Cryptography;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace ControlFlowStatements01
+namespace Exercises3
 {
-    class baitapngay28
+    class Program
     {
         public static void Main(string[] args)
         {
@@ -18,18 +17,13 @@ namespace ControlFlowStatements01
             //baitap05();//5.Write a program to read 10 numbers and find their average and sum.
             //baitap06();//6.Write a program to display the multiplication table of a given integer.
             //baitap07();//7.Write a program to display a pattern like triangles with a number.
-            baitap0801();//8.
-            //baitap0802
-            //baitap0803
+            //baitap0801();
+            //baitap0802();
+            //baitap0803();
             //baitap09();//9.Write a program to display the n terms of harmonic series and their sum. 1 + 1/2 + 1/3 + 1/4 + 1/5... 1/n terms
             //baitap10();//10.Write a program to find the ‘perfect’ numbers within a given number range.
             //baitap11();//11.Write a program to determine whether a given number is prime or not.
         }
-
-
-
-
-
         static void baitap01()
         {
             Console.WriteLine("Nhap so: ");
@@ -43,7 +37,6 @@ namespace ControlFlowStatements01
                 Console.WriteLine($"{a} la so le");
             }
         }
-
         static void baitap02()
         {
             int a, b, c;
@@ -60,7 +53,6 @@ namespace ControlFlowStatements01
 
             Console.WriteLine($"Vay so lon nhat trong 3 so {a}, {b}, {c} la: " + max);
         }
-
         static void baitap03()
         {
             double a, b;
@@ -68,7 +60,6 @@ namespace ControlFlowStatements01
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Nhap toa do thu hai");
             b = Convert.ToDouble(Console.ReadLine());
-
             if (a > 0 && b > 0)
             {
                 Console.WriteLine($"Toa do ({a}:{b}) thuoc goc phan tu thu nhat");
@@ -90,7 +81,6 @@ namespace ControlFlowStatements01
                 Console.WriteLine($"Toa do ({a}:{b}) nam tren mot trong cac truc toa do");
             }
         }
-
         static void baitap04()
         {
             double a, b, c;
@@ -121,7 +111,6 @@ namespace ControlFlowStatements01
                 Console.WriteLine($"3 canh {a},{b},{c} ma ban nhap khong tao thanh mot tam giac");
             }
         }
-
         static void baitap05()
         {
             double sum = 0;
@@ -237,8 +226,6 @@ namespace ControlFlowStatements01
              }
              if (a == 0 && n != 1) Console.WriteLine($"{n} la so nguyen to");
         }
-        
-
     }
 }
 
